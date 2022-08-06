@@ -1,0 +1,29 @@
+@media print {
+	.no-print {
+		display: none;
+	}
+	.print {
+		display: all;
+	}
+	.ln_solid {
+		display: none;
+	}
+	#control-button {
+		display: none;
+	}
+}
+
+@media screen{
+	.no-print {
+		display: all;
+	}
+    .print {
+    	display: none;
+    }
+    .ln_solid {
+    	display: all;
+    }
+    #control-button {
+    	display: all;
+    }
+}
